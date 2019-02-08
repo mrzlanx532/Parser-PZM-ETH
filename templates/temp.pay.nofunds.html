@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/files/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Оплата</title>
+</head>
+<body>
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+               <div class="columns is-centered">
+                   <div class="column is-one-third">
+                        <p class="has-text-centered is-size-3 has-text-white">Недостаточно баллов</p>
+                       <div class="box">
+                       <table class="table table is-fullwidth">
+                           <tbody>
+                               <tr>
+                                   <th>Пользователь</th>
+                                   <td>{{user}}</td>
+                               </tr>
+                               <tr>
+                                   <th>На счету</th>
+                                   <td class="has-text-danger">{{points}}</td>
+                               </tr>
+                               <tr>
+                                   <th>Сумма к оплате</th>
+                                   <td>{{sum}}</td>
+                               </tr>
+                           </tbody>
+                       </table>
+                       </div>
+                       <p class="buttons is-centered">
+                            <button class="button is-danger">
+                                Пополнить баланс
+                            </button>
+                        </p>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

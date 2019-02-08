@@ -1,0 +1,37 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "cycle": "^1.0.3",
+    "daemon": "^1.1.0",
+    "emailjs": "^2.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-subdomain": "^1.0.5",
+    "forever": "^0.15.3",
+    "https": "^1.0.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0",
+    "memcached": "^2.2.2",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.4",
+    "mustache-express": "^1.2.8",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^4.7.0",
+    "phantom": "^6.0.3",
+    "request": "^2.88.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "sendmail": "^1.4.1",
+    "webdriver-manager": "^12.1.0",
+    "webpage": "^0.3.0",
+    "winston": "^3.1.0"
+  }
+}

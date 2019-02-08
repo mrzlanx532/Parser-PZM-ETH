@@ -1,0 +1,23 @@
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script>
+$.getJSON( "http://localhost:3000/wallet/PRIZM-9CLA-4C7K-PGR7-7GNVC", function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
+</script>
+<section class="hero is-black">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            
+        </div>
+    </div>
+</section>
